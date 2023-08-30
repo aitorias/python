@@ -1,4 +1,5 @@
 # Variables
+
 Variables are an **instance of a data type class**, represented by a **unique name** within the code, that stores changeable values of the specific data type.
 Those values can be of any data type (numbers, strings, even results of operations, etc.).
 
@@ -26,10 +27,11 @@ VARIABLE = "test3"
 ```
 
 ## Restrictions
+
 - Don't use keywords or functions that Python reserves for its own
 - Don't use spaces
-- Must start with a letter or an underscore (__variable_)
-- Must be made up of only letters, numbers, and underscores (__variable_)
+- Must start with a letter or an underscore (\__variable_)
+- Must be made up of only letters, numbers, and underscores (\__variable_)
 
 Examples:
 
