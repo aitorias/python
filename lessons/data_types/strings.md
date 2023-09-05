@@ -1,6 +1,6 @@
 # Strings
 
-Strings in Python are **immutable**, this means that they **cannot be modified**. To modify a string, we need to create a new one, but we can also reassign the value of the variable string.
+Strings are sequences of chracters and are **immutable**, this means that they **cannot be modified**. To modify a string, we need to create a new one, but we can also reassign the value of the variable string.
 
 Example:
 
