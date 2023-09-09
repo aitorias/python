@@ -1,3 +1,5 @@
+# Types of languages
+
 ## Compiled languages
 
 Compiled languages needs a software called compiler that translates the code into machinge level language for the computer to understand and execute the program. Compiled programs are fast to run but a bit slow to compile itself.
