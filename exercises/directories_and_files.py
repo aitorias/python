@@ -1,6 +1,7 @@
-# Check if is a directory or file inside a given directory
 import os
 import datetime
+
+# Check if is a directory or file inside a given directory
 
 
 def check_if_is_directory_or_file(directory):
