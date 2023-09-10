@@ -1,5 +1,8 @@
 # Directories
 
+[os module official documentation](https://docs.python.org/3/library/os.html)
+[os.path module official documentation](https://docs.python.org/3/library/os.path.html)
+
 ## os module
 
 ### .chdir()
