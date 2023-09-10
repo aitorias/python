@@ -9,6 +9,8 @@ In Python, this file descriptor is stored as an attribute of the files object.
 
 ## Iterating through files
 
+Is possible to iterate through the file line by line:
+
 Examples:
 
 ```python
