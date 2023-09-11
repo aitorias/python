@@ -3,6 +3,7 @@
 [Offical re module documentation](https://docs.python.org/3/library/re.html)
 [Official regexp HOWTO documentation](https://docs.python.org/3/howto/regex.html)
 [Oficcial greedy non greedy documentation](https://docs.python.org/3/howto/regex.html#greedy-versus-non-greedy)
+[regex game](https://regexcrossword.com/)
 
 A regular expression (regex or regexp) is a search query for text that's expressed by string pattern.
 
@@ -225,3 +226,48 @@ Use `\d` for match digits.
 Use `\s` for match whitespace characters like whitespace, tabs or new lines.
 
 Use `\b` for word boundaries and few others.
+
+# Capturing groups
+
+Capturing groups are portions of the pattern that are enclosed in parentheses.
+
+Examples:
+
+```python
+import re
+
+print(re.search(r"^(\w*), (\w*)$", "This is an example, with two sentences"))
+
+result = re.search(r"^(\w*), (\w*)$", "This is an example, with two sentences")
+print(result.groups())
+print(result[0])
+print(result[1])
+print(result[2])
+print(f'{result[1]} {result[2]}')
+```
+
+# Splitting
+
+Use `.split()` function.
+
+Examples:
+
+```python
+import re
+
+print(re.split(r"[.?!]", "This is an example. Is this a question? Yes!"))
+print(re.split(r"([.?!])", "This is an example. Is this a question? Yes!"))
+```
+
+# Replacing
+
+Use `.sub()` function.
+
+Examples:
+
+```python
+import re
+
+print(re.sub(r"[\w.%+-]+@[\w.-]+", "[TEST]" , "This is an example with an email test@test.com"))
+print(re.sub(r"^([\w .-]*), ([\w .-]*)$", r"\2 \1", "This is an example, this is the second sentence"))
+```
